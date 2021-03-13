@@ -60,6 +60,16 @@ header {
 }
 
 @media (max-width: 650px){
+    header {
+        flex-wrap: wrap;
+    }
+}
+
+.logo {
+    width: 60vw;
+}
+
+@media (max-width: 650px) {
     .logo {
         margin-top: 15px;
         width: 100%;
@@ -229,7 +239,7 @@ nav > ul {
     border-radius: 3px;
 }
 
-product > .level {
+.product > .level {
     background-color: #ddd;
     color: black;
     padding: 15px 0;
